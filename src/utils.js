@@ -1,0 +1,1 @@
+export const getAsync = async (url) => await (await fetch(url)).json()
