@@ -3,10 +3,7 @@ import { getAsync } from './utils'
 
 const Connect = ComposedComponent =>
   class extends React.Component {
-    constructor() {
-      super()
-      this.state = { name: "" }
-    }
+    state = { name: "" }
 
     componentDidMount() {
       setTimeout(() => {
